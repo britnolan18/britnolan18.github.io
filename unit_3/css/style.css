@@ -1,0 +1,92 @@
+html{
+		font-family: "Helvetica", Arial, sans-serif;
+}
+
+body{
+		color: #C49895;
+}
+
+#bg {
+		position: fixed; 
+		top: 0; 
+		left: 0; 
+		/* Preserve aspect ratio */
+		min-width: 100%;
+		min-height: 100%;
+		z-index: -1;
+}
+
+h1{
+		line-height: 50%;
+}
+
+h3{
+		color: #a0b5f3;
+		font-style: italic;
+		font-weight: normal;
+		text-align: center;
+}
+
+p{
+		line-height: 150%;
+		padding-left: 600px;
+		padding-right: 90px;
+		padding-top: 10px;
+}
+
+ul{
+		font-size: 22px;
+		line-height: 160%;
+		list-style-type: none;
+		padding-left: 850px;
+		padding-right: 10px;
+		padding-top: ;
+}
+
+a{
+		color: #C49895;
+		text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+		color: #C49895;
+}
+
+/* visited link */
+a:visited {
+		color: #74A7FF;
+}
+
+/* mouse over link */
+a:hover {
+		color: #7BD4CC;
+}
+
+/* selected link */
+a:active {
+		color: #74A7FF;
+}
+
+footer{
+		font-size: 20px;
+		padding-left: 85px;
+		padding-top: 50px;
+}
+
+#email{
+		color: #a0b5f2;
+		padding-right: 25px;
+		text-decoration: underline;
+}
+
+#instagram{
+		color: #a0b5f2;
+		padding-right: 25px;
+		text-decoration: underline;
+}
+
+#blog{
+		color: #a0b5f2;
+		text-decoration: underline;
+}
