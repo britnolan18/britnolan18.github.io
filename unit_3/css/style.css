@@ -1,92 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Roboto+Condensed:300,400,700');
+
 html{
-		font-family: "Helvetica", Arial, sans-serif;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
 body{
-		color: #C49895;
-}
-
-#bg {
-		position: fixed; 
-		top: 0; 
-		left: 0; 
-		/* Preserve aspect ratio */
-		min-width: 100%;
-		min-height: 100%;
-		z-index: -1;
+	color: #C49895;
 }
 
 h1{
-		line-height: 50%;
-}
-
-h3{
-		color: #a0b5f3;
-		font-style: italic;
-		font-weight: normal;
-		text-align: center;
+	font-family: 'Fugaz One', 'Arial', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 85%;
+	padding-top: 20px;
+	padding-left: 30px;
 }
 
 p{
-		line-height: 150%;
-		padding-left: 600px;
-		padding-right: 90px;
-		padding-top: 10px;
+	font-size: 20px;		/*20px = 1em*/
+	line-height: 150%;
+	padding-left: 600px;
+	padding-right: 90px;
 }
 
 ul{
-		font-size: 22px;
-		line-height: 160%;
-		list-style-type: none;
-		padding-left: 850px;
-		padding-right: 10px;
-		padding-top: ;
+	color: #a0b5f2;
+	font-size: 20px;
+	line-height: 160%;
+	list-style-type: none;
+	padding-left: 900px;
+	padding-right: 10px;
+	padding-top: 30px;
 }
 
 a{
-		color: #C49895;
-		text-decoration: none;
+	color: #a0b5f2;
+	text-decoration: none;
 }
 
 /* unvisited link */
 a:link {
-		color: #C49895;
+	color: #a0b5f2;
 }
 
 /* visited link */
 a:visited {
-		color: #74A7FF;
+	color: #74A7FF;
 }
 
 /* mouse over link */
 a:hover {
-		color: #7BD4CC;
+	color: #7BD4CC;
 }
 
 /* selected link */
 a:active {
-		color: #74A7FF;
+	color: #74A7FF;
 }
 
 footer{
-		font-size: 20px;
-		padding-left: 85px;
-		padding-top: 50px;
+	font-size: 1em;
+	padding-left: 85px;
+	padding-top: 50px;
+}
+
+#bg {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	/* Preserve aspect ratio */
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
 }
 
 #email{
-		color: #a0b5f2;
-		padding-right: 25px;
-		text-decoration: underline;
+	color: #a0b5f2;
+	padding-right: 25px;
+	text-decoration: underline;
 }
 
 #instagram{
-		color: #a0b5f2;
-		padding-right: 25px;
-		text-decoration: underline;
+	color: #a0b5f2;
+	padding-right: 25px;
+	text-decoration: underline;
 }
 
 #blog{
-		color: #a0b5f2;
-		text-decoration: underline;
+	color: #a0b5f2;
+	text-decoration: underline;
 }
