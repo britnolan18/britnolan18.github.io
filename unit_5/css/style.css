@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Roboto+Condensed:300,400,700');
+
+
+body{
+	color: #7796CB;
+	background: #FAFAFA;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+header{
+	background-color: #FFED74;
+	padding-top: 1%;
+	padding-left: 2%;
+}
+
+h1{
+	color: #35EDC9;
+	font-family: 'Fugaz One', 'Arial', sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 90%;
+}
+
+div{
+	background-color: #FFE2B8;
+}
+
+img{
+	height: 30%;
+	width:40%;
+}
+
+p{
+	font-size: 20px;	/*20px = 1em*/
+	line-height: 50%;		
+}
+
+a{
+	color: #7796CB;
+	text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+	color: #7796CB;
+}
+
+/* visited link */
+a:visited {
+	color: #74A7FF;
+}
+
+/* mouse over link */
+a:hover {
+	color: #7BD4CC;
+}
+
+/* selected link */
+a:active {
+	color: #74A7FF;
+}
+
+footer{
+	background-color: #FF957E;
+	font-size: 1.25em;
+	padding: 2%;
+}
+
+nav{
+	background-color: #E8C66A;
+}
+
+#logo{
+	color: #35DCC9;
+}
+
+#about{
+    font-size: 30px;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+	text-decoration: none;
+}
+
+#projects{
+	font-size: 30px;
+	margin: auto;
+	padding: 2%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#blog{
+	font-size: 30px;
+	margin: auto;
+	padding: 2%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#shop{
+	font-size: 30px;
+	margin: auto;
+	padding: 2%;
+	text-align: center;
+	text-decoration: none;
+}
+
+#email{
+	color: #576490;
+	text-decoration: underline;
+}
+
+#instagram{
+	color: #576490;
+	text-decoration: underline;
+}
+
+#twitter{
+	color: #576490;
+	text-decoration: underline;
+}
