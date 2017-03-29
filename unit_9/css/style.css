@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Roboto+Condensed:300,400,700');
+
+
+body{
+	color: #7796CB; 
+	background: #FAFAFA;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	font-size: 16px; /*16px = 1 em*/
+}
+
+header{
+	margin: 1% 2%;
+}
+
+h1{
+	color: #35EDC9;
+	font-family: 'Fugaz One', 'Arial', sans-serif;
+	font-size: 2.25em;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 95%;
+	margin-bottom: 0;
+}
+
+h3{
+	color: #7796CB; 	/* why is this showing as a link? */
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0 2em;
+	width: 85%;
+}
+
+p{
+	font-size: .75em;
+	line-height: 20%;		
+}
+
+a{
+	color: #7BD4CC;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 2px;
+}
+
+/* unvisited link */
+a:link {
+	color: #7BD4CC;
+}
+
+/* visited link */
+a:visited {
+	color: #74A7FF;
+}
+
+/* mouse over link */
+a:hover {
+	color: #7796CB;
+}
+
+/* selected link */
+a:active {
+	color: #74A7FF;
+}
+
+footer{
+	font-size: 1.25em;
+	padding: 2% 0;
+	text-align: center;
+}
+
+nav a{
+	display: inline-block;
+	font-size: 1em;
+	font-weight: normal;
+	color: #576490;
+	text-decoration: underline;
+	padding: 1em;
+}
+
+nav a:hover { 
+	color: #7796CB; /* does not seem to be functioning properly */
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix2:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#logo{
+	color: #35DCC9;
+}
+
+#row1 {
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+    max-width: 85%;
+    vertical-align: center;
+}
+								/* how to center #row1 & #row2? */
+#row2 {
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+    max-width: 85%;
+    vertical-align: center;
+}
+
+#about{
+    font-size: 1.5em;
+    text-align: center;
+	text-decoration: none;
+    margin: 1em;
+    float: left;
+    line-height: 12em;
+    width: 30%;
+    min-width: 12em;
+    max-width: 12em;
+    height: 12em;
+    background-image: url('../images/dogs_watching_tv.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: center;
+}
+
+#projects{
+	font-size: 1.5em;
+	text-align: center;
+	text-decoration: none;
+    margin: 1em;
+    float: left;
+    line-height: 12em;   
+    width: 30%;
+    min-width: 12em;
+    max-width: 12em;
+    height: 12em;
+    background-image: url('../images/little_boy_hanging.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: center;
+}
+
+#blog{
+	font-size: 1.5em;
+	text-align: center;
+	text-decoration: none;
+    margin: 1em;
+    float: left;
+    line-height: 12em;
+    width: 30%;
+    min-width: 12em;
+    max-width: 12em;
+    height: 12em;
+    background-image: url('../images/rooster.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: center;
+}
+
+#shop{
+	font-size: 1.5em;
+	text-align: center;
+	text-decoration: none;
+    margin: 1em;
+    float: left;
+    line-height: 12em;   
+    width: 30%;
+    min-width: 12em;
+    max-width: 12em;
+    height: 12em;
+    background-image: url('../images/pandas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: center;
+}
+
+#about:after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+#projects:after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+#blog:after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+#shop:after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+	body{
+		font-size: .75em;
+	}
+	#row1{
+		float: none;
+		width: auto;
+	}
+	#row2{
+		float: none;
+		width: auto;
+	}
+	#about{
+		line-height: 6em;   
+	    width: 80%;
+	    min-width: 12em;
+	    max-width: 12em;
+	    height: 6em; 
+	}
+	#projects{
+		line-height: 6em;   
+	    width: 80%;
+	    min-width: 12em;
+	    max-width: 12em;
+	    height: 6em; 
+	}
+	#blog{
+		line-height: 6em;   
+	    width: 80%;
+	    min-width: 12em;
+	    max-width: 12em;
+	    height: 6em; 
+	}
+	#shop{
+		line-height: 6em;   
+	    width: 80%;
+	    min-width: 12em;
+	    max-width: 12em;
+	    height: 6em; 
+	}
+}
+
+@media only screen and (min-width : 1224px) {
+	#about{
+		line-height: 14em;   
+	    width: 80%;
+	    min-width: 14em;
+	    max-width: 14em;
+	    height: 14em; 
+	}
+	#projects{
+		line-height: 14em;   
+	    width: 80%;
+	    min-width: 14em;
+	    max-width: 14em;
+	    height: 14em; 
+	}
+	#blog{
+		line-height: 14em;   
+	    width: 80%;
+	    min-width: 14em;
+	    max-width: 14em;
+	    height: 14em; 
+	}
+	#shop{
+		line-height: 14em;   
+	    width: 80%;
+	    min-width: 14em;
+	    max-width: 14em;
+	    height: 14em; 
+	}
+}
